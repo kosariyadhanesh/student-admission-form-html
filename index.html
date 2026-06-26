@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is a student admission form which i made using only html.">
+    <meta name="keywords" content="html, form, student admission form, student admission form in html, html project">
+    <meta name="author" content="Dhanesh kosariya">
+    <title>Student Admission Form</title>
+
+    <!--Og Tags-->
+    <meta property="og:title" content="student admission form">
+    <meta property="og:description" content="html student admission form made by dhanesh kosariya">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="favicon.png" type="image/png">
+    
+</head>
+<body>
+    <header>
+
+        <h1>STUDENT ADMISSION FORM</h1>
+        <P>Please fill all required details.</P>
+
+        <hr>
+
+    </header>
+
+    <main>
+
+        <form action="#">
+
+            <fieldset>
+
+                <legend>1. PERSONAL INFORMATION</legend>
+
+                    <label for="firstname">First Name * </label> &nbsp; &nbsp;
+                    <input type="text" placeholder="Enter first name" id="firstname" name="fname" required> &nbsp; &nbsp; &nbsp; &nbsp;
+
+                    <label for="lastname">Last Name *</label> &nbsp; &nbsp;
+                    <input type="text" placeholder="Enter last name" id="lastname" name="lname" required>&nbsp; &nbsp; &nbsp; &nbsp;
+
+                    <label for="email">Email *</label> &nbsp; &nbsp;
+                    <input type="email" placeholder="Enter your email" id="email" name="email" required>&nbsp; &nbsp; &nbsp; &nbsp;
+
+                    <br><br>
+
+                    <label for="number">Phone Number *</label> &nbsp; &nbsp;
+                    <input type="tel" id="number" name="number" required>&nbsp; &nbsp; &nbsp; &nbsp; 
+
+                    <label for="password">Password *</label> &nbsp; &nbsp;
+                    <input type="password" placeholder="Enter password" id="password" name="pass" required>&nbsp; &nbsp; &nbsp; &nbsp;
+
+                    <label for="con_pass">Confirm Password *</label>
+                    <input type="password" id="con_pass" name="con_pass" required>
+
+                    <br><br>
+
+                    <label for="dob">Date of Birth *</label>&nbsp; &nbsp;
+                    <input type="date" id="dob" name="dob" required>&nbsp; &nbsp; &nbsp; &nbsp;
+
+                    <label for="age">Age</label>&nbsp; &nbsp;
+                    <input type="number" id="age" name="age">
+
+                    <br><br>
+
+                    <label>Gender *</label>&nbsp; &nbsp;
+                    <input type="radio" id="male" name="sex" value="male" required>
+                    <label for="male">Male</label>
+
+                    <input type="radio" id="female" name="sex" value="female">
+                    <label for="female">Female</label>
+
+                    <input type="radio" id="other" name="sex" value="other">
+                    <label for="other">Other</label>
+
+            </fieldset>
+
+            <fieldset>
+                
+                <legend>2. ADDRESS INFORMATION</legend>
+
+                    <label for="houseno">House No.</label>&nbsp; &nbsp;
+                    <input type="text" id="houseno" name="houseno">&nbsp; &nbsp; &nbsp; &nbsp;
+
+                    <label for="street">Street</label>&nbsp; &nbsp;
+                    <input type="text" id="street" name="street">&nbsp; &nbsp; &nbsp; &nbsp;
+
+                    <label for="yourcity">City</label>&nbsp; &nbsp;
+                    <input type="text" id="yourcity" name="city">
+
+                    <br><br>
+
+                    <label for="state">State *</label>&nbsp; &nbsp;
+                    <select id="state" name="state" required>
+
+                        <option value="" selected disabled>Select State</option>
+                        <option value="cg">Chhattisgarh</option>
+                        <option value="up">Uttar Pradesh</option>
+                        <option value="mp">Madhya Pradesh</option>
+                        <option value="mh">Maharashtra</option>
+                        <option value="ka">Karnataka</option>
+                    
+                    </select>&nbsp; &nbsp; &nbsp; &nbsp;
+
+                    <label for="country">Country</label> &nbsp; &nbsp;
+                    <select id="country" name="country">
+
+                        <option value="ind" selected>India</option>
+                        <option value="aus">Australia</option>
+                        <option value="jap">Japan</option>
+                        <option value="usa">USA</option>
+                        <option value="uae">UAE</option>
+
+                    </select>&nbsp; &nbsp; &nbsp; &nbsp;
+
+                    <label for="pincode">Pincode</label>&nbsp; &nbsp;
+                    <input type="number" id="pincode" name="pincode">
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>3. EDUCATION INFORMATION</legend>
+
+                    <label> <b>Highest Qualification *</b></label>&nbsp; &nbsp;
+
+                        <input type="radio" id="10th" name="education" value="10th" required>
+                        <label for="10th">10th</label>&nbsp; &nbsp;
+
+                        <input type="radio" id="12th" name="education" value="12th">
+                        <label for="12th">12th</label>&nbsp; &nbsp;
+
+                        <input type="radio" id="graduation" name="education" value="ug">
+                        <label for="graduation">Graduation</label>&nbsp; &nbsp;
+
+                        <input type="radio" id="postgraduation" name="education" value="pg">
+                        <label for="postgraduation">Post Graduation</label>&nbsp; &nbsp;
+
+                        <input type="radio" id="otherqul" name="education" value="other">
+                        <label for="otherqul">Other</label>
+
+                        <br><br>
+
+                    <label><b>Course Interested In </b></label>&nbsp; &nbsp;
+
+                        <input type="checkbox" id="bca" name="course" value="bca">
+                        <label for="bca">BCA</label>&nbsp; &nbsp;
+
+                        <input type="checkbox" id="bba" name="course" value="bba">
+                        <label for="bba">BBA</label>&nbsp; &nbsp;
+
+                        <input type="checkbox" id="bcom" name="course" value="bcom">
+                        <label for="bcom">B.Com</label>&nbsp; &nbsp;
+
+                        <input type="checkbox" id="mca" name="course" value="mca">
+                        <label for="mca">MCA</label>&nbsp; &nbsp;
+
+                        <input type="checkbox" id="mba" name="course" value="mba">
+                        <label for="mba">MBA</label>&nbsp; &nbsp;
+
+                        <input type="checkbox" id="othercourse" name="course" value="other">
+                        <label for="othercourse">Other</label>
+
+                        <br><br>
+
+                    <label><b>Preferred Batch *</b></label>&nbsp; &nbsp;
+
+                        <input type="radio" id="morning" name="time" value="morning" required>
+                        <label for="morning">Morning</label>&nbsp; &nbsp;
+
+                        <input type="radio" id="evening" name="time" value="evening">
+                        <label for="evening">Evening</label>&nbsp; &nbsp;
+
+                        <input type="radio" id="weekend" name="time" value="weekend">
+                        <label for="weekend">Weekend</label>&nbsp; &nbsp; &nbsp; &nbsp;
+
+                        <br><br>
+
+                    <label for="institutename"><b>University / College Name</b></label>&nbsp; &nbsp;
+                    <input type="text" id="institutename" name="institutename" size="60">&nbsp; &nbsp; &nbsp; &nbsp;
+
+                    <label><b>Year of Passing</b></label>&nbsp; &nbsp;
+                    <select id="dateofpassing" name="dateofpassing"> 
+
+                        <option value="" selected disabled>Select Year</option>
+                        <option value="2020">2020</option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                        <option value="2025">2025</option>
+
+                    </select>
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>4. DOCUMENTS UPLOAD</legend>
+
+                    <label for="photo">Upload Photo *</label>
+                    <input type="file" id="photo" name="photo" required> &nbsp; &nbsp; &nbsp; &nbsp;
+
+                    <label for="marksheet">Upload Marksheet *</label>
+                    <input type="file" id="marksheet" name="marksheet" required>
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>5. ADDITIONAL INFORMATION</legend>
+
+                    <label for="website">Website</label>&nbsp; &nbsp;
+                    <input type="url" id="website" name="website" size="30"> &nbsp; &nbsp; &nbsp; &nbsp;
+
+                    <label for="linkdin">LinkedIn Profile</label>&nbsp; &nbsp; 
+                    <input type="url" id="linkdin" name="linkdin" size="30">&nbsp; &nbsp; &nbsp; &nbsp;
+
+                    <label for="colour"> Favourite Colour</label>&nbsp; &nbsp; 
+                    <input type="color" id="colour" name="colour" value="red">&nbsp; &nbsp; &nbsp; &nbsp;
+
+                    <br><br>
+
+                    <label for="skills">Skills</label>&nbsp; &nbsp;
+                    <input type="text" id="skills" name="skills" size="30">&nbsp; &nbsp; &nbsp; &nbsp;
+
+                    <label for="hobbies">Hobbies</label>&nbsp; &nbsp;
+                    <input type="text" id="hobbies" name="hobbies">&nbsp; &nbsp; &nbsp; &nbsp;
+
+                    <label for="level">Skill Level</label>&nbsp; &nbsp;
+                    <input type="range" id="level" name="skilllevel" min="0" max="100" step="10" value="60">&nbsp; &nbsp; &nbsp; &nbsp;
+
+                    <br><br>
+
+                    <label for="city">Search City</label>&nbsp; &nbsp;
+                    <input type="search" placeholder="search your city" id="city" name="city" size="30">&nbsp; &nbsp; &nbsp; &nbsp;
+
+                    <label for="bloodgroup">Blood Group</label>&nbsp; &nbsp;
+
+                        <select id="bloodgroup" name="bloodgroup">
+
+                            <option value="" selected disabled>Select Blood Group</option>
+                            <option value="a+">A+</option>
+                            <option value="a-">A-</option>
+                            <option value="b+">B+</option>
+                            <option value="b-">B-</option>
+                            <option value="ab+">AB+</option>
+                            <option value="ab-">AB-</option>
+                            <option value="o+">O+</option>
+                            <option value="o-">O-</option>
+
+                        </select>
+
+                        &nbsp; &nbsp; &nbsp; &nbsp;
+
+                    <label for="nation">Nationality</label>&nbsp; &nbsp;
+                    
+                        <select id="nation" name="nation">
+
+                            <option value="" selected disabled>Select Nationality</option>
+                            <option value="indian">Indian</option>
+                            <option value="foreigner">Foreigner</option>
+
+                        </select>
+
+                        <br><br>
+
+                    <label for="answer">Why do you want admission?</label><br><br>
+
+                    <textarea id="answer" name="answer" rows="4" cols="100"></textarea>
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>6. DECLARATION *</legend>
+
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">I agree to the <a href="terms&conditions.html">Terms & Conditions.</a></label>
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>7. OFFICE USE ONLY</legend>
+
+                <label for="app_id">Application ID</label>&nbsp; &nbsp;
+                <input type="text" placeholder="(Auto generated)" id="app_id" name="app_id" size="30" readonly> &nbsp; &nbsp; &nbsp; &nbsp;
+
+                <label for="received_date">Received Date</label>&nbsp; &nbsp;
+                <input type="date" id="received_date" name="received_date" readonly> &nbsp; &nbsp; &nbsp; &nbsp;
+
+                <label for="remarks">Remarks</label>&nbsp; &nbsp; 
+                <textarea id="remarks" name="remarks" cols="40" readonly></textarea>
+
+            </fieldset>
+
+            <br><br>
+
+            <button type="reset">Reset</button> &nbsp; &nbsp;
+            <button type="submit">Submit Application</button>
+
+         </form>
+
+    </main>
+
+    <hr>
+
+    <footer>
+
+        <p>&copy; 2026 All Rights Reserved. made with &hearts; by Dhanesh Kosariya.</p>
+
+    </footer>
+    
+</body>
+</html>
