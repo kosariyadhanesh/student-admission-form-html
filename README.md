@@ -14,6 +14,10 @@ A simple Student Admission Form built using only HTML.
 - File Upload
 - Textarea
 
+## Live URL
+
+https://kosariyadhanesh.github.io/student-admission-form-html/
+
 ## Project URL
 
 https://roadmap.sh/projects/contact-form
