@@ -16,7 +16,7 @@ A simple Student Admission Form built using only HTML.
 
 ## Live URL
 
-https://kosariyadhanesh.github.io/student-admission-form-html/
+https://kosariyadhanesh.github.io/Student-Admission-Form-HTML/
 
 ## Project URL
 
